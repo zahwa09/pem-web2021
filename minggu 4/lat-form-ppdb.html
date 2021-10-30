@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <head>
+        <title>Formulir PPDB Jalur Zonasi Tahun 2020</title>
+    </head>
+    <body>
+        <h2 align="center">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+        <h3>Info Pendaftaran</h3>
+        <form action="/xampp/proses.php" method="get">
+        <p>
+            <label>NISN:</label><br>
+            <input type="text" name="nisn" placeholder="NISN"/>
+        </p>
+        <p>
+            <label>Asal Sekolah:</label><br>
+            <input type="text" name="sekolah" placeholder="Nama sekolah"/>
+        </p>
+        <p>
+            <label>Tahun Lulus:</label><br>
+            <input type="text" name="Tahun lulus" placeholder="tahun lulus"/>
+            *Lampirkan fotocopy Ijazah<br>
+            <input type="file" name="lampiran fc ijazah"/>
+            
+        </p>
+         <h3>Data Calon Peserta</h3>   
+        <p>
+            <label>Nama Lengkap:</label><br>
+            <input type="text" name="nama" placeholder="Nama lengkap"/>
+        </p>
+         <p>
+             <label>NIK:</label><br>
+             <input type="text" name="nik" placeholder="Masukkan NIK"/>
+         </p>
+        <p>
+             <label>Tempat/Tanggal Lahir:</label><br>
+             <input type="datetime" name="tempat_tanggal_lahir" placeholder="dd/mm/yy"/>
+             *Lampirkan fotocopy Akte kelahiran<br>
+             <input type="file" name="image"/>
+         </p>
+        <p>
+            <label>Jenis Kelamin:</label><br>
+            <select name="jenis_kelamin">
+                <option value="laki-laki">Laki-Laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+         </p>
+         <p>
+             Alamat:<br>
+               
+                <label>Desa/Kel.:</label><br>
+                <input type="text" Name="desa" placeholder="Masukkan Desa"/><br>
+                <label>Kecamatan:</label><br>
+                <input type="text" name="Kecamatan" placeholder="Masukkan Kecamatan"/><br>
+                <label>Kabupaten:</label><br>
+                <input type="text" Name="Kabupaten" placeholder="Masukkan Kabupaten"/><br>
+                <label>Provinsi:</label><br>
+                <input type="text" Name="Provinsi" placeholder="Masukkan Provinsi"/><br>
+         </p>
+         <h3>Data ORANG TUA</h3>
+         <p>
+            <label>Nomer Kartu Keluarga:</label><br>
+            <input type="text" name="Kartu Keluarga" placeholder="Kartu Keluarga"/>
+            *Lampirkan Kartu Keluarga<br>
+            <input type="file" name="image"/>
+         </p>
+         <p>
+            <label>Nama Ayah Kandung:</label><br>
+            <input type="text" name="Nama Ayah Kandung" placeholder="Nama Ayah Kandung"/>
+         </p>
+         <p>
+            <label>Agama:</label><br>
+            <input type="text" name="Agama" placeholder="Agama"/>
+         </p>
+         <p>
+            <label>Pekerjaan:</label><br>
+            <input type="text" name="Pekerjaan" placeholder="Pekerjaan"/>
+         </p>
+         <p>
+         <label>Nama Ibu Kandung:</label><br>
+         <input type="text" name="Nama Ibu Kandung" placeholder="Nama Ibu Kandung"/>
+         </p>
+         <p>
+            <label>Agama:</label><br>
+            <input type="text" name="Agama" placeholder="Agama"/>
+         </p>
+         <p>
+            <label>Pekerjaan:</label><br>
+            <input type="text" name="Pekerjaan" placeholder="Pekerjaan"/>
+         </p>
+         <p>
+            Alamat Orang Tua:<br>
+              
+               <label>Desa/Kel.:</label><br>
+               <input type="text" Name="desa" placeholder="Masukkan Desa"/><br>
+               <label>Kecamatan:</label><br>
+               <input type="text" name="Kecamatan" placeholder="Masukkan Kecamatan"/><br>
+               <label>Kabupaten:</label><br>
+               <input type="text" Name="Kabupaten" placeholder="Masukkan Kabupaten"/><br>
+               <label>Provinsi:</label><br>
+               <input type="text" Name="Provinsi" placeholder="Masukkan Provinsi"/><br>
+
+        </p>
+         <p>
+            <label>Email Aktif:</label><br>
+            <input type="text" name="Email" placeholder="Email"/>
+         </p>
+         <p>
+            <input type="submit" value="submit"> <input type="reset">
+         </p>
+        </form>
+    </body>
+</html>
